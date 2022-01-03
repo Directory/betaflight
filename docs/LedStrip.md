@@ -189,19 +189,19 @@ Each LED has one base function:
 * `C` - `C`olor.
 * `F` - `F`light mode & Orientation
 * `A` - `A`rmed state.
-* `R` - `R`ing thrust state.
-* `G` - `G`PS state.
-* `S` - R`S`SSI level.
 * `L` - Battery `L`evel.
+* `S` - R`S`SSI level.
+* `G` - `G`PS state.
+* `R` - `R`ing thrust state.
 
 And each LED has overlays:
 
-* `W` - `W`warnings.
-* `I` - `I`ndicator.
 * `T` - `T`hrust state.
-* `B` - `B`link (flash twice) mode.
 * `O` - Lars`O`n Scanner (Cylon Effect).
-* `N` - Blink on la`N`ding (throttle < 50%).
+* `B` - `B`link (flash twice) mode.
+* `V` - `V`TX (channel color) mode.
+* `I` - `I`ndicator.
+* `W` - `W`warnings.
 
 `cc` specifies the color number (0 based index).
 
